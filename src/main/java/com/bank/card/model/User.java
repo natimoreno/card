@@ -13,9 +13,5 @@ public class User {
 
     private String name;
 
-    /**
-     * Metodos propios de la object value User
-     * Si, por ejemplo tuvieramos un email ,
-     * podemos crear una clase Email con sus propias validaciones, metodos y declarar aqui el campo Email
-     */
+    // here: method of value object
 }

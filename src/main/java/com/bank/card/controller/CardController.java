@@ -46,7 +46,7 @@ public class CardController {
         return ResponseEntity.noContent().build();
     }
 
-    @GetMapping("/search-card/{id}")
+    @GetMapping("/v2/card/{id}")
     public ResponseEntity<Card> searchCard(@PathVariable Long id) {
 
         return this.retrieveCard(id);

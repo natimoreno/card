@@ -56,5 +56,4 @@ public class PayloadDTOTest {
         assertEquals(user.getId(), "1");
         assertEquals(user.getName(), "NAME");
     }
-
 }

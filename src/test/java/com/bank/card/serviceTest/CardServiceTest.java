@@ -102,5 +102,4 @@ public class CardServiceTest {
         card.setStatus("STATUS_INACTIVE");
         assertThrows(ApiException.class, () -> this.cardService.update(1L, card));
     }
-
 }

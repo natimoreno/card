@@ -7,7 +7,6 @@ import com.bank.card.repository.Card;
 import com.bank.card.repository.CardRepository;
 import com.bank.card.service.CardService;
 import com.bank.card.service.SegmentService;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -81,7 +80,7 @@ public class SegmentServiceTest {
         card.setId(1);
         card.setName(USER_NAME);
         card.setStatus(STATUS_ACTIVE);
-        card.setSegment(SEGMENT_CLASSIC);
+        card.setSegment(SEGMENT_PLATINUM);
 
         payloadDTO = new PayloadDTO();
         payloadDTO.setUser(new User("1", USER_NAME));
@@ -108,7 +107,7 @@ public class SegmentServiceTest {
         card.setId(1);
         card.setName(USER_NAME);
         card.setStatus(STATUS_ACTIVE);
-        card.setSegment(SEGMENT_CLASSIC);
+        card.setSegment(SEGMENT_GOL);
 
         payloadDTO = new PayloadDTO();
         payloadDTO.setUser(new User("1", USER_NAME));
