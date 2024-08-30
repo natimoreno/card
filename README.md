@@ -1,7 +1,5 @@
 # Getting started
 
-Card [Demo](./docu/demo.mov)
-
 Build application
 
 `./gradlew build`
