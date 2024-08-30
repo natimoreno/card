@@ -2,6 +2,11 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.3.3'
 	id 'io.spring.dependency-management' version '1.1.6'
+	id 'application'
+}
+
+application {
+	mainClass.set("com.bank.card.CardApplication")
 }
 
 group = 'com.bank'
@@ -39,3 +44,9 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+//task runApp(type:JavaExec) {
+//	classpath = sourceSets.main.runtimeClasspath
+//
+//	main = project.hasProperty("mainClass") ? project.getProperty("mainClass") : "package.CardApplication"
+//}
