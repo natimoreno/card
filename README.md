@@ -8,8 +8,8 @@ Run application
 
 `./gradlew -PmainClass=CardApplication run`
 
-- Then you have allowed Open API to [Cards](http://localhost:8080/swagger-ui/index.html) and [consola](http://localhost:8080/h2-console)
-- At Browser configure *DBC URL* with `jdbc:h2:mem:bankdb`
+- Then you have allowed: Open API to [Cards](http://localhost:8080/swagger-ui/index.html) and [consola](http://localhost:8080/h2-console)
+- In the Browser configure *DBC URL* with `jdbc:h2:mem:bankdb`
 
 ## Example
 
