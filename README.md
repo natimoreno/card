@@ -13,8 +13,12 @@ Run application
 
 ## Example
 
-Describe:
+Desing:
 * Microservicio API Rest H2 memo
+* The DB is not normalized
+* Strategy Pattern:
+  * abstract class CreditSegment with 3 concrete classes
+  * Card Service appling lamda function with isValid method figure out the segment at the runtime
 
 Example:
 - Controlador de Cards o Segmentos - CRUD directo de la entidad Card en la DB
