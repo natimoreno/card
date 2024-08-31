@@ -22,7 +22,7 @@ Desing:
 
 Example:
 - Controlador de Cards o Segmentos - CRUD directo de la entidad Card en la DB
-- Controlador Segments¡ - Patrón de diseño Strategy. En tiempo de ejecución determona la Card / Segmento.
+- Controlador Segments - Patrón de diseño Strategy. En tiempo de ejecución determina la Card o Segmento.
   - AMOUNT < 2000 & PESOS : CLASSIC
   - AMOUNT > 2000 & PESOS: PLATINUM
   - AMOUNT > 3000 & DOLAR : GOL
@@ -81,7 +81,7 @@ curl --location 'http://localhost:8080/bank/segment' \
 
 ### Disclaimer: 
 
-Realice dos tipos de implementación para el requerimietno del controlador que se llama a sí mismo (no estoy segura a que referia)
+Realice dos tipos de implementación para el requerimiento del controlador que se llama a sí mismo (no estoy segura a que referia)
 
 By Segment that call Card controller
 ```
