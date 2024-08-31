@@ -8,17 +8,17 @@ Run application
 
 `./gradlew -PmainClass=CardApplication run`
 
-- Then you have allowed: Open API to [Cards](http://localhost:8080/swagger-ui/index.html) and [consola](http://localhost:8080/h2-console)
-- In the Browser configure *DBC URL* with `jdbc:h2:mem:bankdb`
+- Then you have allowed: Open API [Cards](http://localhost:8080/swagger-ui/index.html) and DB [console](http://localhost:8080/h2-console)
+- In the Browser configure *DBC URL* with `jdbc:h2:mem:bankdb` for DB console
 
 ## Example
 
 Desing:
-* Microservicio API Rest H2 memo
+* Microservice API Rest H2 memo
 * The DB is not normalized
 * Strategy Pattern:
   * abstract class CreditSegment with 3 concrete classes
-  * Card Service appling lamda function with isValid method figure out the segment at the runtime
+  * Card Service appling lamda function with isValid method. It resolves the segment at the runtime.
 
 Example:
 - Controlador de Cards o Segmentos - CRUD directo de la entidad Card en la DB
